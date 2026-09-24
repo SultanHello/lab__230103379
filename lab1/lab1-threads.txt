@@ -1,0 +1,8 @@
+
+Thread-order observation run (P=4):
+rank=2/4 thread=ForkJoinPool-50-worker-1 id=427
+rank=3/4 thread=ForkJoinPool-50-worker-4 id=430
+rank=1/4 thread=ForkJoinPool-50-worker-2 id=428
+rank=0/4 thread=ForkJoinPool-50-worker-3 id=429
+
+Repeat the program ten times and save stdout if documenting run-to-run ordering.
