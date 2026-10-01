@@ -1,0 +1,60 @@
+{
+  "platform": "macOS-15.6-arm64-arm-64bit",
+  "processor": "arm",
+  "logical_cpus": 10,
+  "numba_max_threads": 10,
+  "monte_carlo": {
+    "1": {
+      "seconds": 0.317770874999999,
+      "pi_estimate": 3.1414973666666666,
+      "speedup": 1.0,
+      "efficiency_percent": 100.0
+    },
+    "2": {
+      "seconds": 0.16263845799999999,
+      "pi_estimate": 3.1418205666666665,
+      "speedup": 1.953848301980329,
+      "efficiency_percent": 97.69241509901644
+    },
+    "4": {
+      "seconds": 0.096976917000001,
+      "pi_estimate": 3.1416216333333336,
+      "speedup": 3.2767681715432935,
+      "efficiency_percent": 81.91920428858234
+    },
+    "8": {
+      "seconds": 0.07096070799999943,
+      "pi_estimate": 3.141487,
+      "speedup": 4.478124358623952,
+      "efficiency_percent": 55.9765544827994
+    },
+    "10": {
+      "seconds": 0.0688835000000001,
+      "pi_estimate": 3.1416530666666667,
+      "speedup": 4.613163892659324,
+      "efficiency_percent": 46.13163892659324
+    }
+  },
+  "mandelbrot": {
+    "rows_seconds": 0.8751886659999997,
+    "cols_seconds": 0.9284810409999995,
+    "faster": "rows",
+    "shape": [
+      2500,
+      2500
+    ],
+    "max_iter": 1000
+  },
+  "heat": {
+    "float64_seconds": 0.12183116699999985,
+    "float64_megacells_per_sec": 5540.454192645145,
+    "float32_seconds": 0.06605116700000124,
+    "float32_megacells_per_sec": 10219.350098689207,
+    "runtime_factor_float64_over_float32": 1.8444968125998071,
+    "shape": [
+      1500,
+      1500
+    ],
+    "steps": 300
+  }
+}
